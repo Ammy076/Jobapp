@@ -1,10 +1,10 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import JobsScreen from './src/screens/JobsScreen';
-import BookmarksScreen from './src/screens/BookmarksScreen';
 import { Provider } from 'react-redux';
 import store from './src/redux/store';
+import JobsScreen from './src/screens/JobsScreen';
+import BookmarksScreen from './src/screens/BookmarksScreen';
 
 const Tab = createBottomTabNavigator();
 
@@ -20,3 +20,4 @@ export default function App() {
     </Provider>
   );
 }
+
