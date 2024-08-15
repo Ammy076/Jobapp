@@ -12,8 +12,8 @@ export const bookmarksSlice = createSlice({
     },
     setBookmarks: (state, action) => {
       return action.payload;
-    }
-  }
+    },
+  },
 });
 
 export const { addBookmark, setBookmarks } = bookmarksSlice.actions;
@@ -26,3 +26,4 @@ export const loadBookmarks = () => async (dispatch) => {
 };
 
 export default bookmarksSlice.reducer;
+
